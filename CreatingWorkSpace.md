@@ -9,8 +9,20 @@ Follow below steps:
 -   This will contain package objects, intermideate form of code that cached
 -   This helps reduce compilation time pulling packages from remote reposotories
 5) Set GOPATH environment variable as below:  
--   export GOAPTH=<em>workspace path
+-   export GOAPTH=<em>workspace</em> path
 -   see lisint of env variable  
     -   go env  
+
+
+# creating pakage  
+- name should be all small case and single word, no special characters or spaces
+- more details about rules are avaialble [here](https://blog.golang.org/package-names)
+- e.g. in current workspace palindrome.go has package named main.
+
+
+# creating executable  
+- Run command  
+    - go install
+- It will create executables in <em>bin</em> directory
 
 
